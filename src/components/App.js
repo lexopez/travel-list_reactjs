@@ -7,16 +7,15 @@ import Stats from "./Stats";
 function App() {
   const [items, setItems] = useState([]);
 
-  console.log(items);
-
   function handleAddItems(item) {
     setItems((items) => [...items, item]);
   }
+
   return (
     <div className="app">
       <Logo />
       <Form onAddItems={handleAddItems} />
-      <PackingList />
+      <PackingList items={items} />
       <Stats />
     </div>
   );
