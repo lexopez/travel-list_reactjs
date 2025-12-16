@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+# 🧳 Far Away – Packing List App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Far Away** is a simple React.js learning project that helps users create and manage a packing list for a trip. The app is intentionally lightweight and uses **only React local state** to demonstrate core React concepts such as component composition, props, and state updates.
 
-## Available Scripts
+This project is designed purely for **learning purposes** and does not use external state management libraries, databases, or APIs.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 📌 Project Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The application allows users to:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Add items needed for a trip
+- Specify quantity per item
+- Mark items as packed or unpacked
+- Remove individual items
+- Sort or clear the packing list
 
-### `npm test`
+All logic is handled locally within React components using `useState`.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🛠️ Tech Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **React.js**
+- **JavaScript (ES6+)**
+- **CSS** for styling
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+⚠️ No external libraries, global state management, or backend services are used.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🎯 Learning Objectives
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+This project demonstrates:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Using `useState` for local state management
+- Passing state and handlers via props
+- Controlled form inputs
+- Rendering lists dynamically
+- Conditional rendering
+- Updating state immutably
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🚀 Getting Started
 
-## Learn More
+### 1️⃣ Clone the repository
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+git clone https://github.com/lexopez/travel-list_reactjs.git
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 2️⃣ Install dependencies
 
-### Code Splitting
+```bash
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### 3️⃣ Run the development server
 
-### Analyzing the Bundle Size
+```bash
+npm run dev
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+The app will be available at:
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
+http://localhost:3000
+```
