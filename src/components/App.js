@@ -37,7 +37,7 @@ function App() {
         onDeleteItem={handleDeleteItem}
         onClearList={handleClearList}
       />
-      <Stats />
+      <Stats items={items} />
     </div>
   );
 }
