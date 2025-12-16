@@ -1,6 +1,6 @@
 # 🧳 Far Away – Packing List App
 
-**Far Away** is a simple React.js learning project that helps users create and manage a packing list for a trip. The app is intentionally lightweight and uses **only React local state** to demonstrate core React concepts such as component composition, props, and state updates.
+**Far Away** is a simple React.js learning project that helps users create and manage a packing list for a trip. The app is intentionally lightweight and uses **only React local state** to demonstrate core React concepts such as props, and state updates.
 
 This project is designed purely for **learning purposes** and does not use external state management libraries, databases, or APIs.
 
