@@ -7,7 +7,7 @@ function Item({ item, onToggleItem, onDeleteItem }) {
         onChange={() => onToggleItem(item.id)}
       />
       <span style={item.packed ? { textDecoration: "line-through" } : {}}>
-        1 bag
+        {item.quantity} {item.description}
       </span>
       <button onClick={() => onDeleteItem(item.id)}>❌</button>
     </li>
