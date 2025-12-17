@@ -60,7 +60,7 @@ npm install
 ### 3️⃣ Run the development server
 
 ```bash
-npm run dev
+npm start
 ```
 
 The app will be available at:
